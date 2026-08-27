@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabella</title>
+
+<style>
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+  </style>
+    
+
+</head>
+<body>
+
+        <header>
+          <h1>Tabella</h1>
+          <h2>Clienti</h2>
+        </header>
+
+        <main>
+            <table border>
+
+                <tr>
+                     <th>NOME</th>
+                     <th>COGNOME</th>
+                     <th>ETA'</th>
+                </tr>
+
+                <tr>
+                     <td>Stefano</td>
+                     <td>Rossi</td>
+                     <td>30</td>
+                </tr>
+
+                <tr>
+                     <td>Maria</td>
+                     <td>Verdi</td>
+                     <td>25</td>
+                </tr>
+
+                <tr>
+                     <td>Giuseppe</td>
+                     <td>Bianchi</td>
+                     <td>35</td>
+                </tr>
+
+             </table>
+
+
+             <h2>Tabella con sito e descrizione pizzeria</h2>
+             <table border>
+                <tr>
+                      <th>FOTO</th>
+                      <th>SITO</th>
+                      <th>DESCRIZIONE</th>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="./LUIGIPIZZA/pizzaluigi.ico" alt="pizzaluigi" width="40">
+                  </td>
+                  <td>
+                    <a href="https://www.luigipizza.it/" target="_blank">Pizzeria Da Luigi</a>
+                  </td>
+                  <td>
+                    Pizze senza lattosio e senza glutine
+                  </td>
+                </tr>
+
+             
+              </table>
+
+<h2>Tabella completa</h2>
+
+            <table border>
+                  <caption>ORDINI CLIENTI</caption>
+
+                <thead>
+                    <tr>
+                      <th>ID_CLIENTE</th>
+                      <th>QUANTITA' </th>
+                      <th>PRODOTTO</th>
+                      <th>PREZZO</th>
+                    </tr>
+                 </thead>
+                <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>2</td>
+                      <td>Pizza Margherita</td>
+                      <td>€ 10,00</td>
+                    </tr>
+
+                    <tr>
+                      <td>2</td>
+                      <td>1</td>
+                      <td>Pizza Diavola</td>
+                      <td>€ 12,00</td>
+                    </tr>
+
+                    <tr>
+                      <td>3</td>
+                      <td>3</td>
+                      <td>Pizza Quattro Stagioni</td>
+                      <td>€ 15,00</td>
+                    </tr>
+                 </tbody>
+                 <tfoot>
+                  <td colspan="3">TOTALE</td>
+                  <td>€ 37,00</td>
+                 </tfoot>
+
+            </table>
+
+        </main>
+
+        <h2>Orari di Apertura</h2>
+
+        <table border>
+          <caption>ORARI DI APERTURA</caption>
+            <tr>
+                <th>GIORNO</th>
+                <th>ORARIO</th>
+            </tr>
+
+            <tr>
+                <td>LUNEDI'</td>
+                <td>CHIUSO</td>
+            </tr>
+
+            <tr>
+                <td>MARTEDI'</td>
+                <td>18:00 - 23:00</td>
+            </tr>
+
+            <tr>
+                <td>MERCOLEDI'</td>
+                <td>18:00 - 23:00</td>
+            </tr>
+
+            <tr>
+                <td>GIOVEDI'</td>
+                <td>18:00 - 23:00</td>
+            </tr>
+
+            <tr>
+                <td>VENERDI'</td>
+                <td>18:00 - 23:00</td>
+            </tr>
+
+            <tr>
+                <td>SABATO</td>
+                <td>18:00 - 23:00</td>
+            </tr>
+
+            <tr>
+                <td>DOMENICA</td>
+                <td>CHIUSO</td>
+            </tr>
+
+</body>
+</html>
