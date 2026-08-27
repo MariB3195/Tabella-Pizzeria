@@ -26,7 +26,7 @@
     th, td {
         border: 1px solid black;
         padding: 8px;
-        text-align: left;
+        text-align: center;
         font-size: 14px;
         font-weight: normal;
         font-family: Arial, Helvetica, sans-serif;
@@ -42,14 +42,37 @@
       font-size: 14px;
       font-weight: bold;
     }
+
+    #table-pizzeria {
+      width: 30%;
+      text-align: center;
+      margin-left: 35%;
+    }
+
+    #table-orari {
+      width: 30%;
+      text-align: center;
+      margin-left: 35%;
+    }
+
+    #table-clienti {
+      width: 30%;
+      text-align: center;
+      margin-left: 35%;
+    }
+
+    #table-ordini {
+      width: 30%;
+      text-align: center;
+      margin-left: 35%;
+    }
   </style>
     
 
 </head>
 <body>
 
-  <h2>SITO E DESCRIZIONE PIZZERIA</h2>
-             <table border>
+             <table id="table-pizzeria">
                 <tr>
                       <th>FOTO</th>
                       <th>SITO</th>
@@ -71,8 +94,8 @@
               </table>
 
 
-        <table border>
-          <caption>ORARI DI APERTURA</caption>
+        <table id="table-orari">
+          <caption><b>ORARI DI APERTURA</b></caption>
             <tr>
                 <th>GIORNO</th>
                 <th>ORARIO</th>
@@ -115,8 +138,9 @@
 
         <main>
 
-            <table border>
-<h1>CLIENTI</h1>
+            <table id="table-clienti">
+              <caption><b>CLIENTI</b></caption>
+
 
                 <tr>
                      <th>NOME</th>
@@ -145,12 +169,8 @@
              </table>
 
 
-             
-
-<h2>TABELLA ORDINI</h2>
-
-            <table border>
-                  <caption>ORDINI CLIENTI</caption>
+            <table id="table-ordini">
+                  <caption><b>ORDINI CLIENTI</b></caption>
 
                 <thead>
                     <tr>
@@ -185,8 +205,10 @@
                  <tfoot>
                   <td colspan="3">TOTALE</td>
                   <td>€ 37,00</td>
+
                   <td><button>CONFERMA</button>
                     <button>ANNULLA</button></td>
+
                  </tfoot>
 
             </table>
