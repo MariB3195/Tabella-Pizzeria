@@ -41,35 +41,53 @@
       margin: 5px;
       font-size: 14px;
       font-weight: bold;
+      background-color: #be9191;
     }
 
     #table-pizzeria {
       width: 30%;
       text-align: center;
       margin-left: 35%;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     #table-orari {
       width: 30%;
       text-align: center;
       margin-left: 35%;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     #table-clienti {
       width: 30%;
       text-align: center;
       margin-left: 35%;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     #table-ordini {
       width: 30%;
       text-align: center;
       margin-left: 35%;
+      font-family: Arial, Helvetica, sans-serif;
     }
+
+
+ .conferma {
+      background-color: green;
+      color: white;
+    }
+
+    .annulla {
+      background-color: red;
+      color: white;
+    }
+
+   
+    
   </style>
     
 
-</head>
 <body>
 
              <table id="table-pizzeria">
@@ -136,7 +154,7 @@
                 <td>CHIUSO</td>
             </tr>
 
-        <main>
+        </main>
 
             <table id="table-clienti">
               <caption><b>CLIENTI</b></caption>
@@ -170,7 +188,7 @@
 
 
             <table id="table-ordini">
-                  <caption><b>ORDINI CLIENTI</b></caption>
+                <caption><b>ORDINI CLIENTI</b></caption>
 
                 <thead>
                     <tr>
@@ -206,8 +224,8 @@
                   <td colspan="3">TOTALE</td>
                   <td>€ 37,00</td>
 
-                  <td><button>CONFERMA</button>
-                    <button>ANNULLA</button></td>
+                  <td><button class="conferma">CONFERMA</button>
+                    <button class="annulla">ANNULLA</button></td>
 
                  </tfoot>
 
